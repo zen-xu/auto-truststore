@@ -28,5 +28,4 @@ build-backend = "hatchling.build"
 requires = ["hatchling"]
 
 [tool.hatch.build.targets.wheel]
-packages = ["auto_truststore"]
-include = ["auto-truststore.pth"]
+only-include = ["auto-truststore.pth"]
